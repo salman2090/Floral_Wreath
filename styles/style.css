@@ -1,0 +1,136 @@
+/* common styles */
+* {
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+/* header related styles */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  padding: 0px 230px;
+}
+#btn-style a {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.flower_img {
+  margin-top: 50px;
+  width: 635px;
+  height: 800px;
+  flex-shrink: 0;
+}
+.header-text {
+  font-weight: bolder;
+  font-size: 80px;
+  margin-top: 190px;
+  color: #272727;
+}
+.header-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 40px 0px;
+}
+
+/* Featured Section Styles */
+.featured-section {
+  margin-top: 170px;
+}
+.featured-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.featured-container {
+  display: flex;
+  margin: 20px 240px;
+  gap: 25px;
+}
+
+.product_name {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 32px;
+}
+#first_flower {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 76px 0px;
+}
+#second_flower {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px;
+}
+#third_flower {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0px;
+}
+
+/* Service Section Style */
+.service_container {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 128px 240px;
+  gap: 100px;
+  padding: 86px 100px 87px;
+}
+.services {
+  color: rgba(39, 39, 39, 0.8);
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+}
+/* footer related styles */
+footer {
+  padding: 80px;
+  text-align: center;
+  color: #fff;
+  background-color: #111010;
+}
+footer > h2 {
+  font-weight: 700;
+}
+.footer-title {
+  color: #e55473;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 20px 0px;
+}
+.copyright-text {
+  color: rgba(255, 255, 255, 0.4);
+}
