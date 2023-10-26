@@ -20,13 +20,23 @@ body {
   font-style: normal;
   font-weight: 700;
 }
+.text_style {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 40px 0px;
+}
+#aligned_text {
+  text-align: center;
+}
 /* header related styles */
 header {
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
   padding: 0px 230px;
 }
-#btn-style a {
+.btn-style a {
   color: #fff;
   font-size: 20px;
   font-style: normal;
@@ -39,18 +49,11 @@ header {
   height: 800px;
   flex-shrink: 0;
 }
-.header-text {
+.header_text {
   font-weight: bolder;
   font-size: 80px;
   margin-top: 190px;
   color: #272727;
-}
-.header-paragraph {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 40px 0px;
 }
 
 /* Featured Section Styles */
@@ -72,7 +75,7 @@ header {
   gap: 25px;
 }
 
-.product_name {
+.flower_name {
   color: #272727;
   text-align: center;
   font-size: 24px;
@@ -113,6 +116,69 @@ header {
   text-align: center;
   font-size: 24px;
   line-height: 35px;
+}
+
+/* Deal Section style */
+.deal_container {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 128px;
+}
+.deal_announcement {
+  margin-top: 230px;
+  margin-left: 350px;
+  text-align: center;
+  max-width: 50%;
+}
+.deal_section_title {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+#deal_img {
+  padding: 100px 0px 100px 130px;
+}
+
+/* Products Section */
+
+.products_container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Subscription Section */
+.sub_container {
+  background: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 128px 180px;
+  border-radius: 8px;
+  width: 1440px;
+  height: 449px;
+  flex-shrink: 0;
+  text-align: center;
+}
+#sub_title {
+  padding-top: 120px;
+}
+.input_field {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.btn_sub {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 /* footer related styles */
 footer {
