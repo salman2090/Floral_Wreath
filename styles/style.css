@@ -34,7 +34,8 @@ body {
 header {
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
-  padding: 0px 230px;
+  flex-direction: row;
+  padding: 0px 100px;
 }
 .btn-style a {
   color: #fff;
@@ -44,19 +45,26 @@ header {
   text-decoration: none;
 }
 .flower_img {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 635px;
-  height: 800px;
-  flex-shrink: 0;
+  height: 600px;
+  /* flex-shrink: 0; */
 }
 .header_text {
   font-weight: bolder;
-  font-size: 80px;
-  margin-top: 190px;
+  font-size: 70px;
+  margin-top: 50px;
   color: #272727;
 }
 
 /* Featured Section Styles */
+.featured-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px 0px; */
+  gap: 25px;
+}
 .featured-section {
   margin-top: 170px;
 }
@@ -69,35 +77,45 @@ header {
   margin-top: 24px;
   margin-bottom: 48px;
 }
-.featured-container {
-  display: flex;
-  margin: 20px 240px;
-  gap: 25px;
-}
 
 .flower_name {
   color: #272727;
   text-align: center;
   font-size: 24px;
   font-weight: 700;
-  line-height: 35px;
   text-decoration-line: underline;
   margin-top: 32px;
 }
 #first_flower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  padding: 110px 76px 0px;
+  width: 400px;
+  height: 450px;
+  /* padding: 110px 76px 0px; */
 }
 #second_flower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
-  padding: 117px 47px 51px;
+  /* padding: 117px 47px 51px; */
+  width: 400px;
+  height: 450px;
 }
 #third_flower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
-  padding: 67px 75px 0px;
+  /* padding: 67px 75px 0px; */
+  width: 400px;
+  height: 475px;
 }
 
 /* Service Section Style */
@@ -148,15 +166,23 @@ header {
   justify-content: center;
   gap: 25px;
 }
-
+.products_container img {
+  width: 300px;
+}
 /* Subscription Section */
 .sub_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_section {
   background: url("../images/Rectangle\ 9.png");
+  min-height: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  margin: 128px 180px;
+  margin: 128px 0px;
   border-radius: 8px;
-  width: 1440px;
+  width: 1200px;
   height: 449px;
   flex-shrink: 0;
   text-align: center;
